@@ -1,0 +1,65 @@
+# =========================
+# FRONTEND (Next.js)
+# =========================
+node_modules/
+.next/
+out/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# BACKEND (.NET)
+# =========================
+bin/
+obj/
+
+*.user
+*.rsuser
+*.suo
+
+.vs/
+.idea/
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+
+# ASP.NET secrets
+appsettings.Development.json
+secrets.json
+
+# Publish
+publish/
+
+# Test results
+TestResults/
+coverage/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CERTIFICATES
+# =========================
+*.pfx
+*.crt
+*.key
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
